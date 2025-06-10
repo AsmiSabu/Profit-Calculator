@@ -34,6 +34,9 @@ A project to calculate project-wise profits based on employee allocation.
 - **Project 4**: Remote Health Consultation App
 - **Project 5**: Hospital Resource Tracker
 
+![pofit calc pg 1](https://github.com/user-attachments/assets/e78b266d-6f07-4e3b-bfee-daa290de0752)
+
+
 ## Project Structure
 
  ### Employee Details
@@ -47,6 +50,9 @@ A project to calculate project-wise profits based on employee allocation.
   **Hourly rate** = The rate t which the employee is paid per hour
   **Start Date** = The date the employee starts working on the project
   **End Date** =  The date the employee ends work on the project
+
+  ![profit calc img 2](https://github.com/user-attachments/assets/2cbfb479-a0a6-425c-b616-a6da6ded45d9)
+
   
   ### Cost Details
 
@@ -60,6 +66,8 @@ A project to calculate project-wise profits based on employee allocation.
   ** Total Cost ** = Sum of all employee total costs
   ** Revenue ** = Project's total earnings
   ** Profit ** = Revenue - Cost
+
+  
   
 
 
