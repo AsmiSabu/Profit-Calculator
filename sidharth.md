@@ -150,3 +150,8 @@ Admins and managers can manage multiple projects under departments, assign assoc
 - Revenue of the organisation
 - Total cost (auto generated from details of all the employees by considering cost of all employees)
 - Profit
+
+  ![profit Analysis Table](https://github.com/user-attachments/assets/bcae69b7-771d-4f3a-9c90-85cac9b37be5)
+  ![profit table](https://github.com/user-attachments/assets/5aab10a9-3a6e-4999-b433-e8eafd4d6612)
+
+
