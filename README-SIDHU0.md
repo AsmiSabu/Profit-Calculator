@@ -73,6 +73,13 @@ Each project under any department must include the following:
   
    ![LULO jpg](https://github.com/user-attachments/assets/7ac84b8f-72b5-433d-bb5d-7a3acd60e5ec)
 
+### Cost Details
+
+  **Employee Name** = Name of the employee
+  **Project Name** = The project the employee is assigned to
+  **Salary** =  The salary allocated for the duration of the project
+  **Cost** = Additional costs such as administrative, infrastructure, or support
+
 
 ###  Project Financial Summary
 
