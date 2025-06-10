@@ -103,3 +103,19 @@ Each project listed under a department will display:
 Associates can be allocated to projects with specific allocation percentages, working duration, and hourly cost.
 
 ###Employees
+
+###  Login Requirements
+
+- **Login Form **
+  - **User ID**
+    - Type: Text
+    - Mandatory: Yes
+  - **Password**
+    - Type: Password
+    - Mandatory: Yes
+  - **Login Button**
+    - On click, authenticates user and retrieves employee information.
+
+- **Authentication Logic**
+  - Validates credentials against stored user data.
+  - On success, redirect to dashboard and display employee summary.
