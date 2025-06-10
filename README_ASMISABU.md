@@ -4,7 +4,7 @@ A project to calculate project-wise profits based on employee allocation.
 # Organisation Structure and Profit Requirements
 
 ## Organization Name 
-## Triassic Solutions Private Limited
+** Triassic Solutions Private Limited **
 
 ## Departments and Project Overview
 
