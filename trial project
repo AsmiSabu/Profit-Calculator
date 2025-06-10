@@ -8,7 +8,7 @@ A project to calculate project-wise profits based on employee allocation.
 
 ###  Feature: Create Organization (Admin Only)
 
-As an administrator, I should be able to create a new organization in the Profit Explorer system. This organization will serve as the root unit for departments and projects.
+As an administrator, I should be able to create a new organization in the Profit Explorer system. 
 
 ### Requirements
 
@@ -27,9 +27,7 @@ As an administrator, I should be able to create a new organization in the Profit
 - **All users**: Can view organization details
 
 
-
-
-  ##  Department Management
+ ##  Department Management
 
 ###  Feature: Manage Departments (Admin Only)
 
@@ -42,7 +40,7 @@ Each department entry will include:
 - Department Name
 - Description
 
-###  Admin Capabilities
+###  Admin Details
 
 - **Add Department**: Opens a popup to input details
 - **Edit Department**: Opens the same popup pre-filled
@@ -60,13 +58,11 @@ Each department entry will include:
 
 ###  Access
 
-- **Admin**: Full CRUD (Create, Read, Update, Delete)  
+- **Admin**: Functions (Create, Read, Update, Delete)  
 - **All users**: View only
 
 
-
-
-  ##  Project Management – Profit Explorer
+ ##  Project Management – Profit Explorer
 
 ###  Feature: Manage Projects (Admin Only)
 
@@ -84,7 +80,7 @@ Each project listed under a department will display:
 - Total Associates
 - Status (e.g., Active, Completed)
 
-###  Admin Capabilities
+###  Admin Tasks
 
 - Add Project  
 - Edit Project  
