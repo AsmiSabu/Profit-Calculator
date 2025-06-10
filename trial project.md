@@ -26,6 +26,9 @@ As an administrator, I should be able to create a new organization in the Profit
 - **Admin**: Can create a new organization  
 - **All users**: Can view organization details
 
+  ![mainmenu](https://github.com/user-attachments/assets/74fa2bcb-116a-4ba5-9c58-0acce06883e0)
+
+
 
  ##  Department Management
 
@@ -33,12 +36,21 @@ As an administrator, I should be able to create a new organization in the Profit
 
 From the `Config > Department` submenu, admins can view, create, edit, and delete departments within an organization.
 
+![deptmnt](https://github.com/user-attachments/assets/305e205a-5bfc-4653-a03f-75d5f6e61994)
+
+
+![department](https://github.com/user-attachments/assets/54a48b4c-8c3c-4e45-bcf3-e0401d5e35ce)
+
+
 ###  Department List View
 
 Each department entry will include:
 - Department ID
 - Department Name
 - Description
+
+  ![dept](https://github.com/user-attachments/assets/9eb61c32-b704-48fe-be24-6b027c2648d2)
+
 
 ###  Admin Details
 
@@ -68,6 +80,9 @@ Each department entry will include:
 
 Admins can manage multiple projects under departments, assign associates (employees), and track cost, duration, and revenue for accurate profitability analysis.
 
+![config](https://github.com/user-attachments/assets/a18ccbff-e3ad-4136-b338-c5626cf957d3)
+
+
 ###  Project List View
 
 Each project listed under a department will display:
@@ -79,6 +94,9 @@ Each project listed under a department will display:
 - End Date
 - Total Associates
 - Status (e.g., Active, Completed)
+
+  ![project details](https://github.com/user-attachments/assets/bbcd2d7c-7187-41c8-a950-c0cce88e1f78)
+
 
 
 
@@ -113,10 +131,18 @@ Associates can be allocated to projects with specific allocation percentages, wo
     - Mandatory: Yes
   - **Login Button**
     - On click, authenticates user and retrieves employee information.
+   
+      ![employee](https://github.com/user-attachments/assets/fca72158-7d81-400f-952c-fb30046324ef)
+
+   
+      ![user](https://github.com/user-attachments/assets/a22e76f3-e6f3-4312-97d8-e6ff7726efc0)
+
 
 - **Authentication Logic**
   - Validates credentials against stored user data.
   - On success, redirect to dashboard and display employee summary.
+    
+![profit](https://github.com/user-attachments/assets/3fc3b77d-4c4b-4a7c-9b92-37cfc1a52721)
 
 
 
