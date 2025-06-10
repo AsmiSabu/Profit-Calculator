@@ -36,7 +36,7 @@ As an administrator, I should be able to create a new organization in the Profit
 
 From the `Config > Department` submenu, admins can view, create, edit, and delete departments within an organization.
 
-![deptmnt](https://github.com/user-attachments/assets/305e205a-5bfc-4653-a03f-75d5f6e61994)
+
 
 
 ![department](https://github.com/user-attachments/assets/54a48b4c-8c3c-4e45-bcf3-e0401d5e35ce)
