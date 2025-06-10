@@ -6,68 +6,112 @@ A project to calculate project-wise profits based on employee allocation.
 ## Organization Name 
 ** Triassic Solutions Private Limited **
 
-## Departments and Project Overview
+###  Feature: Create Organization (Admin Only)
 
-### Department: AI (Artificial Intelligence)
+As an administrator, I should be able to create a new organization in the Profit Explorer system. This organization will serve as the root unit for departments and projects.
 
-- **Project 1**: AI-based Chatbot
-- **Project 2**: Image Recognition System
-- **Project 3**: Predictive Maintenance using ML
-- **Project 4**: NLP-based Text Analyzer
-- **Project 5**: AI Virtual Assistant
+### Requirements
 
+- **Organization Name**  
+  - Type: Text  
+  - Max Length: 15 characters  
+  - Mandatory: Yes
 
-###  Department: Industrial Automation
+- **Organization ID**  
+  - Auto-generated (e.g., ORG01, ORG02...)  
+  - Max Length: 5 characters
 
-- **Project 1**: PLC-Based Conveyor System
-- **Project 2**: Smart Sensor Network
-- **Project 3**: Robotics Arm Integration
-- **Project 4**: Industrial IoT Dashboard
-- **Project 5**: Automated Quality Control
+###  Access
 
+- **Admin**: Can create a new organization  
+- **All users**: Can view organization details
 
-###  Department: Healthcare
-
-- **Project 1**: Patient Monitoring System
-- **Project 2**: Health Record Management
-- **Project 3**: AI Diagnosis Tool
-- **Project 4**: Remote Health Consultation App
-- **Project 5**: Hospital Resource Tracker
-
-![pofit calc pg 1](https://github.com/user-attachments/assets/e78b266d-6f07-4e3b-bfee-daa290de0752)
+  ![admin](https://github.com/user-attachments/assets/bdbf0d21-5939-444a-a682-264a6d076b3c)
 
 
-## Project Structure
+  ##  Department Management
 
- ### Employee Details
+###  Feature: Manage Departments (Admin Only)
 
-- ** Add Employee **
+From the `Config > Department` submenu, admins can view, create, edit, and delete departments within an organization.
 
-  **Name** = Name of the employee
-  **Employee ID** = A unique identifier for the employee
-  **Department** = The section where employee belongs to
-  **% Allocation** = The percentage of time the employee is working on the project
-  **Hourly rate** = The rate t which the employee is paid per hour
-  **Start Date** = The date the employee starts working on the project
-  **End Date** =  The date the employee ends work on the project
+###  Department List View
 
-  ![profit calc img 2](https://github.com/user-attachments/assets/2cbfb479-a0a6-425c-b616-a6da6ded45d9)
+Each department entry will include:
+- Department ID
+- Department Name
+- Description
 
-  
-  ### Cost Details
+###  Admin Capabilities
 
-  **Employee Name** = Name of the employee
-  **Project Name** = The project the employee is assigned to
-  **Salary** =  The salary allocated for the duration of the project
-  **Cost** = Additional costs such as administrative, infrastructure, or support
+- **Add Department**: Opens a popup to input details
+- **Edit Department**: Opens the same popup pre-filled
+- **Delete Department**: Prompts confirmation before deletion
 
-  ### Financial Details
+###  Add/Edit Department – Popup Fields
 
-  ** Total Cost ** = Sum of all employee total costs
-  ** Revenue ** = Project's total earnings
-  ** Profit ** = Revenue - Cost
+- **Department ID**: Auto-generated
+- **Name**:  
+  - Max Length: 15 characters  
+  - Mandatory: Yes
+- **Description**:  
+  - Max Length: 255 characters  
+  - Optional
 
-  
+###  Access
+
+- **Admin**: Full CRUD (Create, Read, Update, Delete)  
+- **All users**: View only
+
+  ![department](https://github.com/user-attachments/assets/635fa219-2096-4265-971b-6d3c811bf458)
+
+
+  ##  Project Management – Profit Explorer
+
+###  Feature: Manage Projects (Admin Only)
+
+Admins can manage multiple projects under departments, assign associates (employees), and track cost, duration, and revenue for accurate profitability analysis.
+
+###  Project List View
+
+Each project listed under a department will display:
+- Project ID
+- Project Name
+- Department Name
+- Description
+- Start Date
+- End Date
+- Total Associates
+- Status (e.g., Active, Completed)
+
+###  Admin Capabilities
+
+- Add Project  
+- Edit Project  
+- Delete Project  
+- Assign Associates to Project  
+- Update Associate Allocation and Cost  
+- Remove Associate from Project
+
+![proj](https://github.com/user-attachments/assets/a5aab76b-bd4b-41e0-8109-ad99418b40e4)
+
+
+### Add/Edit Project – Popup/Form Fields
+
+##  Associate (Employee) Assignment to Project
+
+Associates can be allocated to projects with specific allocation percentages, working duration, and hourly cost.
+
+![project](https://github.com/user-attachments/assets/da2920a7-9686-4764-8738-bd80c5580e79)
+
+
+
+
+
+
+
+
+
   
 
 
