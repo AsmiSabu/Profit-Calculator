@@ -26,7 +26,7 @@ As an administrator, I should be able to create a new organization in the Profit
 - **Admin**: Can create a new organization  
 - **All users**: Can view organization details
 
-  ![admin](https://github.com/user-attachments/assets/bdbf0d21-5939-444a-a682-264a6d076b3c)
+
 
 
   ##  Department Management
@@ -63,7 +63,7 @@ Each department entry will include:
 - **Admin**: Full CRUD (Create, Read, Update, Delete)  
 - **All users**: View only
 
-  ![department](https://github.com/user-attachments/assets/635fa219-2096-4265-971b-6d3c811bf458)
+
 
 
   ##  Project Management – Profit Explorer
@@ -93,7 +93,7 @@ Each project listed under a department will display:
 - Update Associate Allocation and Cost  
 - Remove Associate from Project
 
-![proj](https://github.com/user-attachments/assets/a5aab76b-bd4b-41e0-8109-ad99418b40e4)
+
 
 
 ### Add/Edit Project – Popup/Form Fields
@@ -102,7 +102,7 @@ Each project listed under a department will display:
 
 Associates can be allocated to projects with specific allocation percentages, working duration, and hourly cost.
 
-![project](https://github.com/user-attachments/assets/da2920a7-9686-4764-8738-bd80c5580e79)
+
 
 
 
