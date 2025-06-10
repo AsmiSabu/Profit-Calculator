@@ -25,7 +25,7 @@ A project to calculate project-wise profits based on employee allocation.
 - **Project 5**: Automated Quality Control
 
 
-### 🏥 Department: Healthcare
+###  Department: Healthcare
 
 - **Project 1**: Patient Monitoring System
 - **Project 2**: Health Record Management
@@ -39,22 +39,22 @@ A project to calculate project-wise profits based on employee allocation.
 
 - ** Add Employee **
 
-  **Name**
-  **Employee ID**
-  **Department**
-  **% Allocation**
-  **Hourly rate**
-  **Start Date**
-  **End Date**
-
+  **Name** = Name of the employee
+  **Employee ID** = A unique identifier for the employee
+  **Department** = The section where employee belongs to
+  **% Allocation** = The percentage of time the employee is working on the project
+  **Hourly rate** = The rate t which the employee is paid per hour
+  **Start Date** = The date the employee starts working on the project
+  **End Date** =  The date the employee ends work on the project
+  
   ### Cost Details
 
-  **Employee Name**
-  **Project Name**
-  **Salary**
-  **Cost**
+  **Employee Name** = Name of the employee
+  **Project Name** = The project the employee is assigned to
+  **Salary** =  The salary allocated for the duration of the project
+  **Cost** = Additional costs such as administrative, infrastructure, or support
 
-  ### Financial Summary
+  ### Financial Details
 
   ** Total Cost ** = Sum of all employee total costs
   ** Revenue ** = Project's total earnings
