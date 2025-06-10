@@ -1,11 +1,11 @@
-# 🏢 Organization Structure and Project Requirements
+#  Organization Structure and Project Requirements
 
-## 🏷️ Organization Name
+##  Organization Name
 **TRIASSIC SOLUTIONS PVT.LTD**
 
 ---
 
-## 🏢 Departments and Projects Overview
+##  Departments and Projects Overview
 
 The organization consists of the following departments:
 
@@ -22,15 +22,28 @@ Each department manages **5 distinct projects**, and each project includes:
 
 ---
 
-## 📁 Project Structure (Applicable to All Projects)
+##  Project Structure (Applicable to All Projects)
 
 Each project under any department must include the following:
 
-### 👥 Employees Table
+###  Employees Table
+- **Name**: Full name of the employee  
+- **% Work Completed**: Percentage of assigned work completed by the employee for the project  
+- **Cost per Hour**: The employee's hourly billing rate in ₹  
+- **Start Date**: The date when the employee began working on the project (format: DD-MM)  
+- **End Date**: The date when the employee completed or is expected to complete the project (format: DD-MM)  
+- **Salary (₹/year)**: The employee’s gross annual salary  
+- **Infrastructure Cost (₹/year)**: Yearly cost attributed to infrastructure use (e.g., equipment, workspace)  
+- **Total Cost (₹/year)**: Sum of Salary and Infrastructure cost  
+
+---
+ **Example**
+ 
+![TABLE 1](https://github.com/user-attachments/assets/367f3c03-1538-4c08-8270-de93b865c8af)
 
 
+###  Project Financial Summary
 
-### 💰 Project Financial Summary
 
 - **Total Cost** = Sum of all employee total costs  
 - **Revenue** = Project’s total income  
@@ -70,7 +83,7 @@ Each project under any department must include the following:
 
 ---
 
-## 🔁 Data Integrity Requirement
+##  Data Integrity Requirement
 
 To ensure long-term reliability:
 
