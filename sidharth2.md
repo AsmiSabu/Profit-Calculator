@@ -149,11 +149,11 @@ Each department entry will include:
 
 ## Details of all the users(employees)
 
-![MENU3](https://github.com/user-attachments/assets/635918fa-1b63-48a4-9204-012e8d69b6ba)
 
 - As an admin only i can view the full details of all the employees
 - Admin can edit and delete employee
-
+- 
+![MENU3](https://github.com/user-attachments/assets/635918fa-1b63-48a4-9204-012e8d69b6ba)
 
 **Details of all employees contains the following fields**
 ![salary2](https://github.com/user-attachments/assets/202daa6c-98cf-464a-8860-6b1dc629aea3)
@@ -180,6 +180,6 @@ Each department entry will include:
 
 
 **Profit analysis consist of the following fields**
-- Revenue of the organisation
+- Revenue of the organisation(auto-generated)
 - Total cost (auto generated from details of all the employees by considering cost of all employees)
-- Profit
+- Profit(auto-genrated)
